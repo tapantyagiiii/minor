@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiet Voice AI – Sign Language Interface</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="15" cy="15" r="14" stroke="currentColor" stroke-width="2"/>
+                    <path d="M10 15L13 18L20 11" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <h1>Quiet Voice AI</h1>
+                <span class="subtitle">Sign Language Interface</span>
+            </div>
+            <div class="nav-menu">
+                <button class="nav-btn active" data-tab="interface">Home</button>
+                <button class="nav-btn" data-tab="settings">Settings</button>
+                <button class="nav-btn" data-tab="about">About</button>
+            </div>
+        </div>
+    </nav>
+
+    <div class="main-container">
+        <div id="interface-tab" class="tab-content active">
+            <div class="interface-grid">
+                <div class="left-panel">
+                    <div class="input-header">
+                        <h2>Message Input</h2>
+                        <div class="language-selector">
+                            <label for="language">Language:</label>
+                            <select id="language" class="dropdown">
+                                <option value="english">English</option>
+                                <option value="hindi">Hindi (Hinglish)</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                    <div class="input-section">
+                        <textarea 
+                            id="message-input" 
+                            class="text-input" 
+                            placeholder="Type your message here..."
+                            rows="4"
+                        ></textarea>
+                        <div class="input-controls">
+                            <span class="char-count">0 / 500</span>
+                            <button id="send-btn" class="send-button">
+                                <span>Send</span>
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                    <path d="M2 10L8 4L7 10H13L7 16L8 10H2Z" fill="currentColor"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="chat-section">
+                        <div class="chat-header">
+                            <h3>Conversation History</h3>
+                            <button id="clear-chat" class="clear-btn">Clear</button>
+                        </div>
+                        <div id="chat-area" class="chat-area">
+                            <div class="chat-placeholder">
+                                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" opacity="0.5">
+                                    <path d="M10 15C10 12.2386 12.2386 10 15 10H25C27.7614 10 30 12.2386 30 15V20C30 22.7614 27.7614 25 25 25H15C12.2386 25 10 22.7614 10 20V15Z" stroke="currentColor" stroke-width="2"/>
+                                    <circle cx="15" cy="17" r="1.5" fill="currentColor"/>
+                                    <circle cx="20" cy="17" r="1.5" fill="currentColor"/>
+                                    <circle cx="25" cy="17" r="1.5" fill="currentColor"/>
+                                </svg>
+                                <p>Your messages will appear here</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="right-panel">
+                    <div class="avatar-container">
+                        <div class="avatar-header">
+                            <h2>Sign Language Avatar</h2>
+                            <div class="avatar-status">
+                                <span class="status-dot"></span>
+                                <span>Ready</span>
+                            </div>
+                        </div>
+                        
+                        <!-- Replace the content inside <div class="avatar-display"> with: -->
+<div class="avatar-display">
+    <canvas id="avatar-canvas" width="400" height="400"></canvas>
+    <div class="avatar-controls" style="position: absolute; bottom: 20px; left: 50%; transform: translateX(-50%); display: flex; gap: 10px;">
+        <button id="play-sign" class="avatar-btn" style="padding: 8px 16px; background: rgba(102, 126, 234, 0.8); color: white; border: none; border-radius: 6px; cursor: pointer;">Play Sign</button>
+        <button id="reset-avatar" class="avatar-btn" style="padding: 8px 16px; background: rgba(102, 126, 234, 0.8); color: white; border: none; border-radius: 6px; cursor: pointer;">Reset</button>
+    </div>
+</div>
+
+                        </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="settings-tab" class="tab-content">
+            <div class="settings-container">
+                <h2>Settings</h2>
+                
+                <div class="settings-group">
+                    <h3>Appearance</h3>
+                    <div class="setting-item">
+                        <div class="setting-info">
+                            <label for="dark-mode-toggle">Dark Mode</label>
+                            <span class="setting-description">Toggle between light and dark themes</span>
+                        </div>
+                        <label class="toggle-switch">
+                            <input type="checkbox" id="dark-mode-toggle">
+                            <span class="toggle-slider"></span>
+                        </label>
+                    </div>
+                    
+                    <div class="setting-item">
+                        <div class="setting-info">
+                            <label for="font-size">Font Size</label>
+                            <span class="setting-description">Adjust text size for better readability</span>
+                        </div>
+                        <select id="font-size" class="setting-select">
+                            <option value="small">Small</option>
+                            <option value="medium" selected>Medium</option>
+                            <option value="large">Large</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="settings-group">
+                    <h3>Accessibility</h3>
+                    <div class="setting-item">
+                        <div class="setting-info">
+                            <label for="high-contrast">High Contrast</label>
+                            <span class="setting-description">Enhance visual contrast for better visibility</span>
+                        </div>
+                        <label class="toggle-switch">
+                            <input type="checkbox" id="high-contrast">
+                            <span class="toggle-slider"></span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="about-tab" class="tab-content">
+            <div class="about-container">
+                <div class="about-hero">
+                    <svg width="80" height="80" viewBox="0 0 80 80" fill="none">
+                        <circle cx="40" cy="40" r="38" stroke="url(#gradient)" stroke-width="4"/>
+                        <path d="M25 40L35 50L55 30" stroke="url(#gradient)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                        <defs>
+                            <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" style="stop-color:#667eea"/>
+                                <stop offset="100%" style="stop-color:#764ba2"/>
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                    <h2>Quiet Voice AI</h2>
+                    <p class="tagline">Breaking communication barriers through technology</p>
+                </div>
+
+                <div class="about-section">
+                    <h3>About the Project</h3>
+                    <p>Quiet Voice AI is an innovative sign language interface designed to bridge the communication gap between the deaf/hard-of-hearing community and the hearing world. Our platform converts text and speech into real-time sign language animations, making communication more accessible and inclusive for everyone.</p>
+                    <p>Built with modern web technologies and a focus on user experience, this interface provides a seamless way to translate messages into sign language, supporting both English and Hindi (Hinglish) inputs.</p>
+                </div>
+
+                <div class="about-section">
+                    <h3>How to Use</h3>
+                    <div class="steps">
+                        <div class="step">
+                            <span class="step-number">1</span>
+                            <div class="step-content">
+                                <h4>Select Language</h4>
+                                <p>Choose between English or Hindi from the dropdown menu</p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <span class="step-number">2</span>
+                            <div class="step-content">
+                                <h4>Type Your Message</h4>
+                                <p>Enter your text in the input area (max 500 characters)</p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <span class="step-number">3</span>
+                            <div class="step-content">
+                                <h4>Send & Watch</h4>
+                                <p>Click Send to see your message translated to sign language</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-section">
+                    <h3>Development Team</h3>
+                    <div class="team-grid">
+                        <div class="team-member">
+                            <div class="member-avatar">SK</div>
+                            <h4>Sumit Kumar</h4>
+                            
+                        </div>
+                        <div class="team-member">
+                            <div class="member-avatar">SY</div>
+                            <h4>Shantanu Yadav</h4>
+                            
+                        </div>
+                        <div class="team-member">
+                            <div class="member-avatar">TT</div>
+                            <h4>Tapan Tyagi</h4>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-footer">
+                    <p>© 2025 Quiet Voice AI. Built with ❤️ for accessibility.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

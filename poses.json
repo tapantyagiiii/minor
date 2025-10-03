@@ -1,0 +1,342 @@
+{
+  "poses": {
+    "idle": {
+      "name": "Idle",
+      "duration": 1000,
+      "frames": [
+        {
+          "head": { "x": 200, "y": 80 },
+          "neck": { "x": 200, "y": 110 },
+          "leftShoulder": { "x": 170, "y": 120 },
+          "rightShoulder": { "x": 230, "y": 120 },
+          "leftElbow": { "x": 160, "y": 160 },
+          "rightElbow": { "x": 240, "y": 160 },
+          "leftWrist": { "x": 160, "y": 200 },
+          "rightWrist": { "x": 240, "y": 200 },
+          "spine": { "x": 200, "y": 180 },
+          "hip": { "x": 200, "y": 220 },
+          "leftHip": { "x": 180, "y": 220 },
+          "rightHip": { "x": 220, "y": 220 },
+          "leftKnee": { "x": 175, "y": 280 },
+          "rightKnee": { "x": 225, "y": 280 },
+          "leftAnkle": { "x": 175, "y": 340 },
+          "rightAnkle": { "x": 225, "y": 340 }
+        }
+      ]
+    },
+    "hello": {
+      "name": "Hello",
+      "duration": 2000,
+      "frames": [
+        {
+          "head": { "x": 200, "y": 80 },
+          "neck": { "x": 200, "y": 110 },
+          "leftShoulder": { "x": 170, "y": 120 },
+          "rightShoulder": { "x": 230, "y": 120 },
+          "leftElbow": { "x": 160, "y": 160 },
+          "rightElbow": { "x": 260, "y": 140 },
+          "leftWrist": { "x": 160, "y": 200 },
+          "rightWrist": { "x": 290, "y": 120 },
+          "spine": { "x": 200, "y": 180 },
+          "hip": { "x": 200, "y": 220 },
+          "leftHip": { "x": 180, "y": 220 },
+          "rightHip": { "x": 220, "y": 220 },
+          "leftKnee": { "x": 175, "y": 280 },
+          "rightKnee": { "x": 225, "y": 280 },
+          "leftAnkle": { "x": 175, "y": 340 },
+          "rightAnkle": { "x": 225, "y": 340 }
+        },
+        {
+          "head": { "x": 200, "y": 80 },
+          "neck": { "x": 200, "y": 110 },
+          "leftShoulder": { "x": 170, "y": 120 },
+          "rightShoulder": { "x": 230, "y": 120 },
+          "leftElbow": { "x": 160, "y": 160 },
+          "rightElbow": { "x": 270, "y": 130 },
+          "leftWrist": { "x": 160, "y": 200 },
+          "rightWrist": { "x": 310, "y": 110 },
+          "spine": { "x": 200, "y": 180 },
+          "hip": { "x": 200, "y": 220 },
+          "leftHip": { "x": 180, "y": 220 },
+          "rightHip": { "x": 220, "y": 220 },
+          "leftKnee": { "x": 175, "y": 280 },
+          "rightKnee": { "x": 225, "y": 280 },
+          "leftAnkle": { "x": 175, "y": 340 },
+          "rightAnkle": { "x": 225, "y": 340 }
+        },
+        {
+          "head": { "x": 200, "y": 80 },
+          "neck": { "x": 200, "y": 110 },
+          "leftShoulder": { "x": 170, "y": 120 },
+          "rightShoulder": { "x": 230, "y": 120 },
+          "leftElbow": { "x": 160, "y": 160 },
+          "rightElbow": { "x": 260, "y": 140 },
+          "leftWrist": { "x": 160, "y": 200 },
+          "rightWrist": { "x": 290, "y": 120 },
+          "spine": { "x": 200, "y": 180 },
+          "hip": { "x": 200, "y": 220 },
+          "leftHip": { "x": 180, "y": 220 },
+          "rightHip": { "x": 220, "y": 220 },
+          "leftKnee": { "x": 175, "y": 280 },
+          "rightKnee": { "x": 225, "y": 280 },
+          "leftAnkle": { "x": 175, "y": 340 },
+          "rightAnkle": { "x": 225, "y": 340 }
+        }
+      ]
+    },
+    "thanks": {
+      "name": "Thank You",
+      "duration": 2000,
+      "frames": [
+        {
+          "head": { "x": 200, "y": 80 },
+          "neck": { "x": 200, "y": 110 },
+          "leftShoulder": { "x": 170, "y": 120 },
+          "rightShoulder": { "x": 230, "y": 120 },
+          "leftElbow": { "x": 160, "y": 160 },
+          "rightElbow": { "x": 240, "y": 150 },
+          "leftWrist": { "x": 160, "y": 200 },
+          "rightWrist": { "x": 220, "y": 140 },
+          "spine": { "x": 200, "y": 180 },
+          "hip": { "x": 200, "y": 220 },
+          "leftHip": { "x": 180, "y": 220 },
+          "rightHip": { "x": 220, "y": 220 },
+          "leftKnee": { "x": 175, "y": 280 },
+          "rightKnee": { "x": 225, "y": 280 },
+          "leftAnkle": { "x": 175, "y": 340 },
+          "rightAnkle": { "x": 225, "y": 340 }
+        },
+        {
+          "head": { "x": 200, "y": 85 },
+          "neck": { "x": 200, "y": 115 },
+          "leftShoulder": { "x": 170, "y": 125 },
+          "rightShoulder": { "x": 230, "y": 125 },
+          "leftElbow": { "x": 160, "y": 165 },
+          "rightElbow": { "x": 230, "y": 160 },
+          "leftWrist": { "x": 160, "y": 205 },
+          "rightWrist": { "x": 200, "y": 170 },
+          "spine": { "x": 200, "y": 185 },
+          "hip": { "x": 200, "y": 225 },
+          "leftHip": { "x": 180, "y": 225 },
+          "rightHip": { "x": 220, "y": 225 },
+          "leftKnee": { "x": 175, "y": 285 },
+          "rightKnee": { "x": 225, "y": 285 },
+          "leftAnkle": { "x": 175, "y": 345 },
+          "rightAnkle": { "x": 225, "y": 345 }
+        }
+      ]
+    },
+    "love": {
+      "name": "I Love You",
+      "duration": 2500,
+      "frames": [
+        {
+          "head": { "x": 200, "y": 80 },
+          "neck": { "x": 200, "y": 110 },
+          "leftShoulder": { "x": 170, "y": 120 },
+          "rightShoulder": { "x": 230, "y": 120 },
+          "leftElbow": { "x": 140, "y": 140 },
+          "rightElbow": { "x": 260, "y": 140 },
+          "leftWrist": { "x": 120, "y": 100 },
+          "rightWrist": { "x": 280, "y": 100 },
+          "spine": { "x": 200, "y": 180 },
+          "hip": { "x": 200, "y": 220 },
+          "leftHip": { "x": 180, "y": 220 },
+          "rightHip": { "x": 220, "y": 220 },
+          "leftKnee": { "x": 175, "y": 280 },
+          "rightKnee": { "x": 225, "y": 280 },
+          "leftAnkle": { "x": 175, "y": 340 },
+          "rightAnkle": { "x": 225, "y": 340 }
+        },
+        {
+          "head": { "x": 200, "y": 80 },
+          "neck": { "x": 200, "y": 110 },
+          "leftShoulder": { "x": 170, "y": 120 },
+          "rightShoulder": { "x": 230, "y": 120 },
+          "leftElbow": { "x": 130, "y": 130 },
+          "rightElbow": { "x": 270, "y": 130 },
+          "leftWrist": { "x": 100, "y": 90 },
+          "rightWrist": { "x": 300, "y": 90 },
+          "spine": { "x": 200, "y": 180 },
+          "hip": { "x": 200, "y": 220 },
+          "leftHip": { "x": 180, "y": 220 },
+          "rightHip": { "x": 220, "y": 220 },
+          "leftKnee": { "x": 175, "y": 280 },
+          "rightKnee": { "x": 225, "y": 280 },
+          "leftAnkle": { "x": 175, "y": 340 },
+          "rightAnkle": { "x": 225, "y": 340 }
+        }
+      ]
+    },
+    "yes": {
+      "name": "Yes",
+      "duration": 1500,
+      "frames": [
+        {
+          "head": { "x": 200, "y": 80 },
+          "neck": { "x": 200, "y": 110 },
+          "leftShoulder": { "x": 170, "y": 120 },
+          "rightShoulder": { "x": 230, "y": 120 },
+          "leftElbow": { "x": 160, "y": 160 },
+          "rightElbow": { "x": 240, "y": 140 },
+          "leftWrist": { "x": 160, "y": 200 },
+          "rightWrist": { "x": 250, "y": 100 },
+          "spine": { "x": 200, "y": 180 },
+          "hip": { "x": 200, "y": 220 },
+          "leftHip": { "x": 180, "y": 220 },
+          "rightHip": { "x": 220, "y": 220 },
+          "leftKnee": { "x": 175, "y": 280 },
+          "rightKnee": { "x": 225, "y": 280 },
+          "leftAnkle": { "x": 175, "y": 340 },
+          "rightAnkle": { "x": 225, "y": 340 }
+        },
+        {
+          "head": { "x": 200, "y": 70 },
+          "neck": { "x": 200, "y": 100 },
+          "leftShoulder": { "x": 170, "y": 110 },
+          "rightShoulder": { "x": 230, "y": 110 },
+          "leftElbow": { "x": 160, "y": 150 },
+          "rightElbow": { "x": 240, "y": 130 },
+          "leftWrist": { "x": 160, "y": 190 },
+          "rightWrist": { "x": 250, "y": 90 },
+          "spine": { "x": 200, "y": 170 },
+          "hip": { "x": 200, "y": 210 },
+          "leftHip": { "x": 180, "y": 210 },
+          "rightHip": { "x": 220, "y": 210 },
+          "leftKnee": { "x": 175, "y": 270 },
+          "rightKnee": { "x": 225, "y": 270 },
+          "leftAnkle": { "x": 175, "y": 330 },
+          "rightAnkle": { "x": 225, "y": 330 }
+        },
+        {
+          "head": { "x": 200, "y": 90 },
+          "neck": { "x": 200, "y": 120 },
+          "leftShoulder": { "x": 170, "y": 130 },
+          "rightShoulder": { "x": 230, "y": 130 },
+          "leftElbow": { "x": 160, "y": 170 },
+          "rightElbow": { "x": 240, "y": 150 },
+          "leftWrist": { "x": 160, "y": 210 },
+          "rightWrist": { "x": 250, "y": 110 },
+          "spine": { "x": 200, "y": 190 },
+          "hip": { "x": 200, "y": 230 },
+          "leftHip": { "x": 180, "y": 230 },
+          "rightHip": { "x": 220, "y": 230 },
+          "leftKnee": { "x": 175, "y": 290 },
+          "rightKnee": { "x": 225, "y": 290 },
+          "leftAnkle": { "x": 175, "y": 350 },
+          "rightAnkle": { "x": 225, "y": 350 }
+        }
+      ]
+    },
+    "no": {
+      "name": "No",
+      "duration": 1500,
+      "frames": [
+        {
+          "head": { "x": 190, "y": 80 },
+          "neck": { "x": 190, "y": 110 },
+          "leftShoulder": { "x": 160, "y": 120 },
+          "rightShoulder": { "x": 220, "y": 120 },
+          "leftElbow": { "x": 150, "y": 160 },
+          "rightElbow": { "x": 240, "y": 140 },
+          "leftWrist": { "x": 150, "y": 200 },
+          "rightWrist": { "x": 270, "y": 120 },
+          "spine": { "x": 190, "y": 180 },
+          "hip": { "x": 190, "y": 220 },
+          "leftHip": { "x": 170, "y": 220 },
+          "rightHip": { "x": 210, "y": 220 },
+          "leftKnee": { "x": 165, "y": 280 },
+          "rightKnee": { "x": 215, "y": 280 },
+          "leftAnkle": { "x": 165, "y": 340 },
+          "rightAnkle": { "x": 215, "y": 340 }
+        },
+        {
+          "head": { "x": 210, "y": 80 },
+          "neck": { "x": 210, "y": 110 },
+          "leftShoulder": { "x": 180, "y": 120 },
+          "rightShoulder": { "x": 240, "y": 120 },
+          "leftElbow": { "x": 170, "y": 160 },
+          "rightElbow": { "x": 250, "y": 140 },
+          "leftWrist": { "x": 170, "y": 200 },
+          "rightWrist": { "x": 280, "y": 120 },
+          "spine": { "x": 210, "y": 180 },
+          "hip": { "x": 210, "y": 220 },
+          "leftHip": { "x": 190, "y": 220 },
+          "rightHip": { "x": 230, "y": 220 },
+          "leftKnee": { "x": 185, "y": 280 },
+          "rightKnee": { "x": 235, "y": 280 },
+          "leftAnkle": { "x": 185, "y": 340 },
+          "rightAnkle": { "x": 235, "y": 340 }
+        }
+      ]
+    },
+    "please": {
+      "name": "Please",
+      "duration": 2000,
+      "frames": [
+        {
+          "head": { "x": 200, "y": 80 },
+          "neck": { "x": 200, "y": 110 },
+          "leftShoulder": { "x": 170, "y": 120 },
+          "rightShoulder": { "x": 230, "y": 120 },
+          "leftElbow": { "x": 160, "y": 160 },
+          "rightElbow": { "x": 230, "y": 150 },
+          "leftWrist": { "x": 160, "y": 200 },
+          "rightWrist": { "x": 200, "y": 160 },
+          "spine": { "x": 200, "y": 180 },
+          "hip": { "x": 200, "y": 220 },
+          "leftHip": { "x": 180, "y": 220 },
+          "rightHip": { "x": 220, "y": 220 },
+          "leftKnee": { "x": 175, "y": 280 },
+          "rightKnee": { "x": 225, "y": 280 },
+          "leftAnkle": { "x": 175, "y": 340 },
+          "rightAnkle": { "x": 225, "y": 340 }
+        },
+        {
+          "head": { "x": 200, "y": 80 },
+          "neck": { "x": 200, "y": 110 },
+          "leftShoulder": { "x": 170, "y": 120 },
+          "rightShoulder": { "x": 230, "y": 120 },
+          "leftElbow": { "x": 160, "y": 160 },
+          "rightElbow": { "x": 220, "y": 150 },
+          "leftWrist": { "x": 160, "y": 200 },
+          "rightWrist": { "x": 190, "y": 170 },
+          "spine": { "x": 200, "y": 180 },
+          "hip": { "x": 200, "y": 220 },
+          "leftHip": { "x": 180, "y": 220 },
+          "rightHip": { "x": 220, "y": 220 },
+          "leftKnee": { "x": 175, "y": 280 },
+          "rightKnee": { "x": 225, "y": 280 },
+          "leftAnkle": { "x": 175, "y": 340 },
+          "rightAnkle": { "x": 225, "y": 340 }
+        },
+        {
+          "head": { "x": 200, "y": 80 },
+          "neck": { "x": 200, "y": 110 },
+          "leftShoulder": { "x": 170, "y": 120 },
+          "rightShoulder": { "x": 230, "y": 120 },
+          "leftElbow": { "x": 160, "y": 160 },
+          "rightElbow": { "x": 210, "y": 150 },
+          "leftWrist": { "x": 160, "y": 200 },
+          "rightWrist": { "x": 180, "y": 180 },
+          "spine": { "x": 200, "y": 180 },
+          "hip": { "x": 200, "y": 220 },
+          "leftHip": { "x": 180, "y": 220 },
+          "rightHip": { "x": 220, "y": 220 },
+          "leftKnee": { "x": 175, "y": 280 },
+          "rightKnee": { "x": 225, "y": 280 },
+          "leftAnkle": { "x": 175, "y": 340 },
+          "rightAnkle": { "x": 225, "y": 340 }
+        }
+      ]
+    }
+  },
+  "mappings": {
+    "hello": ["hello", "hi", "hey", "greetings", "good morning", "good afternoon", "good evening"],
+    "thanks": ["thanks", "thank you", "thank", "thankful", "grateful", "appreciate"],
+    "love": ["love", "i love you", "love you", "heart"],
+    "yes": ["yes", "yeah", "yep", "sure", "okay", "ok", "alright"],
+    "no": ["no", "nope", "not", "never", "nah"],
+    "please": ["please", "pls", "plz"]
+  }
+}
